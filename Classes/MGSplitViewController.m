@@ -279,7 +279,7 @@
 	float height = fullSize.height;
 	
 	if (NO) { // Just for debugging.
-		DBG(@"Target orientation is %@, dimensions will be %.0f x %.0f",
+		NSLog(@"Target orientation is %@, dimensions will be %.0f x %.0f",
 			  [self nameOfInterfaceOrientation:theOrientation], width, height);
 	}
 	
