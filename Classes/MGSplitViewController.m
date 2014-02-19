@@ -555,6 +555,10 @@
   return UIStatusBarStyleLightContent;
 }
 
+- (UIViewController *)childViewControllerForStatusBarStyle {
+  return self.detailViewController;
+}
+
 #pragma mark -
 #pragma mark Popover handling
 
